@@ -1,0 +1,38 @@
+# Python Virtual Environments
+venv/
+env/
+ENV/
+*.venv
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Streamlit Local Cache
+.streamlit/
+
+# AI Model Weights & Cache
+.u2net/
+models/
+*.onnx
+*.pth
+
+# Test and Runtime Output Files
+test_samples/
+*.log
+.batch_worker.lock
+
+# Image folders & Archives
+input_images/
+output_images/
+*.zip
+*.tar.gz
+
+# OS-Specific metadata
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
